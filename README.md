@@ -69,16 +69,19 @@ Search Events - https://fig-finance.herokuapp.com/event/category?category=${sear
 ##Test in Postman
 
 Welcome 
-![](../../Desktop/Screenshot 2023-04-03 at 9.37.34 AM.png)
+<img width="1440" alt="Screenshot 2023-04-03 at 9 37 34 AM" src="https://user-images.githubusercontent.com/41308548/229457799-d3137226-18ff-46c9-a350-231d91071781.png">
+
 
 SignUp
-![](../../Desktop/Screenshot 2023-04-03 at 8.57.27 AM.png)
+<img width="1440" alt="Screenshot 2023-04-03 at 8 57 27 AM" src="https://user-images.githubusercontent.com/41308548/229457976-670f1374-f1d0-414b-a322-4705db792a16.png">
 
 SignIn Route
-![](../../Desktop/Screenshot 2023-04-03 at 8.57.33 AM.png)
+<img width="1440" alt="Screenshot 2023-04-03 at 8 57 33 AM" src="https://user-images.githubusercontent.com/41308548/229457887-487edc41-9ba5-40c9-a914-d720ea7c39e7.png">
+
 
 Transaction Route
-![](../../Desktop/Screenshot 2023-04-03 at 8.57.40 AM.png)
+<img width="1440" alt="Screenshot 2023-04-03 at 8 57 40 AM" src="https://user-images.githubusercontent.com/41308548/229458077-7864d5a7-0997-469c-93d6-e4b298011d27.png">
+
 
 Rate Limiter Working
-![](../../Desktop/Screenshot 2023-04-03 at 8.58.15 AM.png)
+<img width="1440" alt="Screenshot 2023-04-03 at 8 58 15 AM" src="https://user-images.githubusercontent.com/41308548/229458115-f5dd0464-bdbc-48d0-90eb-b2716eada177.png">
