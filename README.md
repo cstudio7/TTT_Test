@@ -6,21 +6,21 @@ Write a simple FizzBuzz function, which should output a sequence of integers fro
 This should result in something like 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz….
 
 ## Test1 Solution
-function fizzBuzz(){
-for(let i=1; i<=100; i++){
-if(i % 15 === 0){
-console.log("fizzBuzz")
-}
-else if (i % 3 === 0){
-console.log("Fizz")
-}else if(i % 5 === 0){
-console.log("Buzz")
-}else{
-console.log(i)
-}
-}
-}
-console.log(fizzBuzz())
+    function fizzBuzz(){
+    for(let i=1; i<=100; i++){
+    if(i % 15 === 0){
+    console.log("fizzBuzz")
+    }
+    else if (i % 3 === 0){
+    console.log("Fizz")
+    }else if(i % 5 === 0){
+    console.log("Buzz")
+    }else{
+    console.log(i)
+    }
+    }
+    }
+    console.log(fizzBuzz())
 
 
 ## Build
@@ -36,35 +36,33 @@ To Run the program on production use
 npm run start
 
 ## Routes
-Get - http://localhost:4000
-Post(Authentication) - http://localhost:4000/api/v1/auth/signup
-Post(Authentication) - http://localhost:4000/api/v1/auth/signin
-Protected Route(Admin Privilege with rate Limiter): Post http://localhost:4000/api/v1/transaction
+    Get - http://localhost:4000
+    Post(Authentication) - http://localhost:4000/api/v1/auth/signup
+    Post(Authentication) - http://localhost:4000/api/v1/auth/signin
+    Post Protected Route(Admin Privilege with rate Limiter) - http://localhost:4000/api/v1/transaction
 
 ## Env
-Use this to run the test
-PORT=
-DB_URL=
-
-//Stripe key not compulsory for the app to work
-STRIPE_SECRET_TEST=
-JWT_KEY=
-JWT_ACCESS=ACCESS
-JWT_REFRESH=REFRESH
-JWT_ACCESS_TIME=
-JWT_AUDIENCE=
-JWT_ISSUER=
-JWT_EXPIRY=600
-JWT_REFRESH_TIME=600
+    Use this to run the test
+    PORT=
+    DB_URL=
+    //Stripe key not compulsory for the app to work
+    STRIPE_SECRET_TEST=
+    JWT_KEY=
+    JWT_ACCESS=ACCESS
+    JWT_REFRESH=REFRESH
+    JWT_ACCESS_TIME=
+    JWT_AUDIENCE=
+    JWT_ISSUER=
+    JWT_EXPIRY=600
+    JWT_REFRESH_TIME=600
 
 
 ## Hosted
-The Project was hosted on Heroku and the Endpoint is https://fig-finance.herokuapp.com
+This project isn't hosted online yet but works well locally
 
-## Routes
-Get Events    - https://fig-finance.herokuapp.com/events?page=${page}&limit=${limit}
-
-Search Events - https://fig-finance.herokuapp.com/event/category?category=${search}
+## Note
+Be sure your Redis server is up and running on Port 6379
+Same with your mongo database
 
 ##Test in Postman
 
